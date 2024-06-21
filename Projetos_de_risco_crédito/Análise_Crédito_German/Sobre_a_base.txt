@@ -1,4 +1,4 @@
-Fonte - https://www.kaggle.com/datasets/uciml/german-credit
+Fonte - https://www.kaggle.com/datasets/uciml/german-credit, https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
 
 1 - Sobre o conjunto de data-set
 
