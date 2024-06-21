@@ -1,0 +1,15 @@
+fonte - https://www.kaggle.com/datasets/laotse/credit-risk-dataset
+
+person_age - Idade
+person_income - Renda Anual
+person_home_ownership - Casa própria
+person_emp_length - Duração do emprego (em anos)
+loan_intent - Intenção de empréstimo
+loan_grade - Grau de empréstimo
+loan_amnt - Valor do empréstimo
+loan_int_rate - Taxa de juros
+loan_status - Status do empréstimo (0 é inadimplência, 1 é inadimplência)
+loan_percent_income - Percentual de renda
+cb_person_default_on_file - Inadimplência histórica
+cb_preson_cred_hist_length - Duração do histórico de crédito
+
