@@ -1,1 +1,5 @@
+- calcular o retorno (ROI) de um empréstimo
 
+- Como calcular o ROI esperado de uma aplicação de um empréstimo, a perda esperada e as métricas: PD, EAD, LGD
+
+- credit-scoring para computar o ROI
