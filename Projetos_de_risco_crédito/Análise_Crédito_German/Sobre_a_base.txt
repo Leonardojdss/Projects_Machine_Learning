@@ -1,23 +1,18 @@
-Fonte - https://www.kaggle.com/datasets/uciml/german-credit, https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
+Fonte - https://www.kaggle.com/datasets/kabure/german-credit-data-with-risk
 
 1 - Sobre o conjunto de data-set
 
-# Contexto
-O conjunto de dados original contém 1000 entradas com 20 atributos categoriais/simbólicos preparados pelo Prof. Neste conjunto de dados, cada entrada representa uma pessoa que 
-recebe crédito de um banco. Cada pessoa é classificada como risco de crédito bom ou ruim de acordo com o conjunto de atributos. O link para o conjunto de dados original pode ser encontrado abaixo.
+O conjunto de dados original contém 1000 entradas com 10 atributos categoriais/simbólicos e 1 varíavel target
 
-# Contente
-É quase impossível compreender o conjunto de dados original devido ao seu complicado sistema de categorias e símbolos. Assim, escrevi um pequeno script Python para 
-convertê-lo em um arquivo CSV legível. Várias colunas são simplesmente ignoradas porque, na minha opinião, ou não são importantes ou as suas descrições são obscuras. 
+2 - Dicionarios dos dados
 
-# Os atributos selecionados são:
-
-Idade (numérico)
-Sexo (texto: masculino, feminino)
-Emprego (numérico: 0 - não qualificado e não residente, 1 - não qualificado e residente, 2 - qualificado, 3 - altamente qualificado)
-Moradia (texto: própria, alugada ou gratuita)
-Contas de poupança (texto - pouco, moderado, bastante rico, rico)
-Conta corrente (numérica, em DM - marco alemão)
-Valor do crédito (numérico, em DM)
-Duração (numérica, em mês)
-Finalidade (texto: carro, móveis/equipamentos, rádio/TV, eletrodomésticos, reparos, educação, negócios, férias/outros)
+# Age = Idade (X = Caracteristicas)
+# Sex = Sexo (X = Caracteristicas)
+# Job = Profissão (X = Caracteristicas)
+# Housing = Habitação (X = Caracteristicas)
+# Saving accounts = Conta poupança (X = Caracteristicas)
+# Checking account = Conta corrente (X = Caracteristicas)
+# Credit amount = Valor do crédito (X = Caracteristicas)
+# Duration = Duração do crédito (X = Caracteristicas)
+# Purpose = Objetivo do crédito (X = Caracteristicas)
+# risk = risco (Y = variavel target)
